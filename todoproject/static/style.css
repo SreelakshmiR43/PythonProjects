@@ -1,0 +1,16 @@
+.banner {
+    background-color: MediumSeaGreen;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    position: relative; /* Adding position relative to establish a positioning context */
+}
+
+.banner-text {
+    font-family: 'Roboto', sans-serif; /* Specify your desired font family here */
+    color: white; /* Adding text color */
+    position: absolute;
+    top: 50%; /* Adjusting the top position to center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering the text both vertically and horizontally */
+}
